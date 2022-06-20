@@ -65,8 +65,7 @@ def stats(update, context):
 
 def start(update, context):
     buttons = ButtonMaker()
-    buttons.buildbutton("⚡️leech group⚡️", "https://du-link.in/st?api=767e4b7776a73f362e2da58872a4549347ed6452&url=
-https://t.me/+NX-WtZmafARlYjE1")
+    buttons.buildbutton("⚡️leech group⚡️", "https://t.me/devil_mirror_leech")
     buttons.buildbutton("🤖bots channel", "https://t.me/AX_Botz")
     reply_markup = InlineKeyboardMarkup(buttons.build_menu(2))
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
